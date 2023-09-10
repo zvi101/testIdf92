@@ -7,7 +7,7 @@ const {UserModel,validateUser,validateLogin,createToken} = require("../models/us
 const router = express.Router();
 
 router.get("/", async(req,res) => {
-  res.json({msg:"user work 77777"})
+  res.json({msg:"testing for pages"})
 })
 
 
